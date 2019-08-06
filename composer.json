@@ -1,0 +1,38 @@
+{
+  "name": "gertjanroke/laravel-js-translations",
+  "description": "Laravel translations for Javascript, Vuejs, React",
+  "keywords": [
+    "gertjanroke",
+    "laravel-js-translations",
+    "javascript laravel translations",
+    "js laravel translations",
+    "vue laravel translations",
+    "react laravel translations"
+  ],
+  "homepage": "https://github.com/gertjanroke/laravel-js-translations",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gertjan Roke",
+      "email": "g.a.roke90@gmail.com",
+      "homepage": "http://gertjanroke.nl",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "illuminate/support": "5.5.*|5.6.*|5.7.*|5.8.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gertjanroke\\LaravelJsTranslations\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Gertjanroke\\LaravelJsTranslations\\LaravelJsTranslationsServiceProvider"
+      ]
+    }
+  }
+}
