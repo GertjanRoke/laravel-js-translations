@@ -4,7 +4,7 @@ namespace Gertjanroke\LaravelJsTranslations;
 
 use Illuminate\Support\ServiceProvider;
 
-class DumpServerServiceProvider extends ServiceProvider
+class LaravelJsTranslationsServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
